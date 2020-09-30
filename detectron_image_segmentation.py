@@ -48,7 +48,7 @@ from detectron2.data import MetadataCatalog
 We first download a random image from the COCO dataset:
 """
 
-#!wget http://images.cocodataset.org/val2017/000000439715.jpg -O input.jpg
+!wget http://images.cocodataset.org/val2017/000000439715.jpg -O input.jpg
 im = cv2.imread("./basket.jpg ball 1.jpg")
 cv2_imshow(im)
 
